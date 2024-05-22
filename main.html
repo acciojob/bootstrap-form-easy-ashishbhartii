@@ -14,7 +14,7 @@
 			<h2> Internship Form</h2>
 			<form method="post" action="">
 				<div class="form-control">
-					<label for="first-name-input">First Name</label><br>
+					<label class="form-label" for="first-name-input">First Name</label><br>
 					<input class="form-control" type="text" id="first-name-input" name="first-name" required><br><br>
 					<div class="invalid-feedback">
 					    Please enter your first name.
@@ -44,7 +44,7 @@
 				</div>
 				<div class="form-control">
 					<label for="grad-year-select">Graduation Year</label><br><br>
-					<select class="form-control" id="grad-year-select" required>
+					<select class="form-select" id="grad-year-select" required>
 						<option name="2020">2020</option>
 						<option name="2021">2021</option>
 						<option name="2022">2022</option>
@@ -62,13 +62,13 @@
 					</div>
 				</div>
 				<div class="form-control">
-					<label for="conditions-checkbox">
-						<input class="form-control" type="checkbox" id="conditions-checkbox" name="conditionbox" required>
-						Agree to terms & conditions
-					</label><br><br>
-					<div class="invalid-feedback">
-					    Please check box the terms and conditions.
-					</div>
+				    <label for="conditions-checkbox">
+				    <input class="form-control" type="checkbox" id="conditions-checkbox" name="conditionbox" required>
+				        Agree to terms and conditions
+				    </label><br><br>
+				    <div class="invalid-feedback">
+			        Please check box the terms and conditions.
+				    </div>
 				</div>
 				<div class="form-control">
 					<button class="btn-primary" type="submit">Submit</button>
